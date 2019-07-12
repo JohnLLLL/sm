@@ -6,25 +6,25 @@
 int main() {
     int loop;
     const char* input;
-    printf("Hello, World!\n");
+    printf("State Machine Coding!\n");
 
     input = read_input();
 
-    printf("%s\n", input);
+    printf("input: %s\n", input);
 
     loop = 0;
     while(1)
     {
+        symbol_name_check(input[loop]);
+        loop++;
+
         if(input[loop])
-        {
-            loop++;
-        }
-        else
         {
             break;
         }
     }
 
+    printf("end\n");
     free((void*)input);
 
     return 0;

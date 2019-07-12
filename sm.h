@@ -5,5 +5,6 @@
 #ifndef UNTITLED_HELLO_H
 #define UNTITLED_HELLO_H
 
+void symbol_name_check(char c);
 
 #endif //UNTITLED_HELLO_H
