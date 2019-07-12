@@ -16,12 +16,13 @@ int main() {
     while(1)
     {
         symbol_name_check(input[loop]);
-        loop++;
 
         if(!input[loop])
         {
             break;
         }
+
+        loop++;
     }
 
     printf("end\n");
