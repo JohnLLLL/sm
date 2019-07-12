@@ -15,6 +15,26 @@ typedef enum {
 
 SYMBOL_STATE_ENUM state = SYMBOL_STATE_S0;
 
+void __symbol_name_char(char c)
+{
+
+}
+
+void __symbol_name_space(char c)
+{
+
+}
+
+void __symbol_name_number(char c)
+{
+
+}
+
+void __symbol_name_underscore(char c)
+{
+
+}
+
 void symbol_name_check(char c)
 {
 
