@@ -18,7 +18,7 @@ int main() {
         symbol_name_check(input[loop]);
         loop++;
 
-        if(input[loop])
+        if(!input[loop])
         {
             break;
         }
